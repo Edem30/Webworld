@@ -20,6 +20,12 @@
         position: relative;
     }
     
+    .content {
+        margin: 0 auto;
+        width: 980px;
+        position: relative;
+    }
+    
     .logo {
         float: left;
         padding: 16px;
@@ -36,6 +42,10 @@
         margin-left: 25 px;
         display: inline-block;
         float: left;
+    }
+    
+    .redes-sociais ul li {
+        margin-left: 20px;
     }
     
     .header2 {
@@ -103,4 +113,97 @@
     
     button.slick-prev {
         font-size: 0px;
+        border: none;
+        width: 25px;
+        height: 51px;
+        background-color: transparent;
+        position: absolute;
+        z-index: 9;
+        top: 32%;
+        left: 0;
+        background-image: url(../img/anterior.png);
+        left: 14%;
+    }
+    
+    button.slick-next {
+        font-size: 0px;
+        border: none;
+        width: 25px;
+        height: 51px;
+        background-color: transparent;
+        position: absolute;
+        z-index: 9;
+        top: 32%;
+        right: 0;
+        background-image: url(../img/proximo.png);
+        right: 14%;
+    }
+    /*ul.slick-dots li {
+        display: inline-block;
+        font-size: 0px;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+    }
+    
+    ul.slick-dots li .slick-active {
+        background-color: #00bac6;
+    }
+    
+    */
+    
+    .slick-dots li button {
+        font-size: 0px;
+        border: 3px solid #fff;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .slick-dots {
+        argin: 0 auto;
+        width: 50%;
+        position: absolute;
+        left: 46%;
+        top: 400px;
+    }
+    
+    li.slick-active button {
+        background: #00bac6;
+    }
+    
+    ul.slick-dots li {
+        display: inline-block;
+    }
+    
+    .texto-destaque h1 {
+        text-align: center;
+        color: #818181;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    
+    .texto-destaque h1 strong {
+        color: #818181;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    
+    .texto-destaque p {
+        font-size: 15px;
+        color: #9a9a9a;
+    }
+    
+    .col-3 {
+        padding-left: 15px;
+        width: 28.3%;
+        float: left;
+        position: relative;
+    }
+    
+    .bloco-texto {
+        margin-top: 3em;
     }

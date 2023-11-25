@@ -6,4 +6,5 @@ $('.slider-principal').slick({
     slidesToScroll: 1,
     adaptiveHeight: true
 
+
 });
