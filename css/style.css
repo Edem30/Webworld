@@ -119,8 +119,7 @@
         background-color: transparent;
         position: absolute;
         z-index: 9;
-        top: 32%;
-        left: 0;
+        top: 40%;
         background-image: url(../img/anterior.png);
         left: 14%;
     }
@@ -133,7 +132,7 @@
         background-color: transparent;
         position: absolute;
         z-index: 9;
-        top: 32%;
+        top: 40%;
         right: 0;
         background-image: url(../img/proximo.png);
         right: 14%;
@@ -165,7 +164,7 @@
     
     .slick-dots {
         argin: 0 auto;
-        width: 50%;
+        width: 50vh;
         position: absolute;
         left: 46%;
         top: 400px;
@@ -197,13 +196,60 @@
         color: #9a9a9a;
     }
     
+    .texto-destaque {
+        margin-left: 250px;
+    }
+    
     .col-3 {
         padding-left: 15px;
-        width: 28.3%;
+        width: 30%;
         float: left;
         position: relative;
     }
     
+    .col-3 img {
+        margin-left: 50px;
+    }
+    
     .bloco-texto {
         margin-top: 3em;
+        margin-bottom: 17em;
+        padding: 15px;
+    }
+    
+    .artigos {
+        background-color: #ebebeb;
+        width: 100%;
+    }
+    
+    .imgs {
+        max-width: 300px;
+        display: inline-block;
+        display: flex;
+        margin: 0 270px;
+        text-align: center;
+        padding: 2px;
+    }
+    
+    .imgs-art {
+        border: 1px solid rgba(0, 0, 0, 0.192);
+        align-items: center;
+        margin: 10px;
+    }
+    
+    .imgs-art img {
+        max-width: 300px;
+        max-height: 150px;
+    }
+    
+    .col-4 {
+        float: left;
+        width: 25%;
+        align-items: center;
+    }
+    
+    .col-4 img {
+        margin: 0 auto;
+        text-align: ;
+        padding-bottom: 1em;
     }
